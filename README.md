@@ -11,7 +11,7 @@ For teryboy
 1 dropdown list a list of friend of yours, you can put everything you want.
 1 button that will submit the form.
 
-You will create the event in javascript who will trigger when you submit the form.
+You will create the event in javascript who will be triggered when you submit the form.
 When the form is submited, you have to display the values filled in the form itself. It can be printed in the console log.
 
 You will finish by pushing your change on this branch.
