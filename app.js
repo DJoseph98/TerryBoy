@@ -16,12 +16,16 @@ console.log(`Your friend is ${text}`);
 
 document.querySelector(".container").innerHTML +=
 
-    `<div>
+    `<div id= result>
       <h2>Your name is ${name}</h2>
       <h2>Your surname is ${surname}</h2>
        <h2>Your age is ${age}</h2>
        <h2>Your Friend is ${text}</h2>
     </div>
     `;
+
+document.querySelector("#result").style =
+"border : 2px solid black; width : 300px;display: flex; justify-content: center; align-items:center; flex-direction : column ; background-color : white"
+
 }
 )
